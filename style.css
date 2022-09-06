@@ -21,10 +21,10 @@ header{
 }
 
 .botao{
-   margin: 20px auto;
+   margin: 25px auto;
    border: solid #926239 1px;
-   height: 30px;
-   width: 100px;
+   height: 24px;
+   width: 90px;
    text-align: center;
    border-radius: 7px 7px;
    padding: 10px 20px;
