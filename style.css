@@ -35,6 +35,8 @@ header{
 .botao:hover{
     background-color: #926239 ;
     color: white;
+    transition: 0.5s;
+    
 }
 
 
@@ -72,3 +74,4 @@ header>p{
 .center{
     text-align: center;
 }
+
