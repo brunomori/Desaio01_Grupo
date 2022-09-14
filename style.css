@@ -1,77 +1,50 @@
-body{
-    background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
-    background-position: center center;
-    position:relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh; 
-    display: flex;
-    flex-direction: column;  
-}
 *{
-    color: #926239;
-    padding: 0px ;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    text-align: center;
-    margin-top: 350px;
-    margin-bottom: 350px;
+    color: #926239;
+     background-image: url(https://traversymedia.com/downloads/assets/beachshowcase.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     align-content: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .botao{
-   margin: 25px auto;
-   border: solid #926239 1px;
-   height: 24px;
-   width: 90px;
-   text-align: center;
-   border-radius: 7px 7px;
-   padding: 10px 20px;
-   font-size: 20px;
-   text-decoration: none;
+    border: #926239 solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #926239;
 }
 
 .botao:hover{
-    background-color: #926239 ;
-    color: white;
-    transition: 0.5s;
-    
-}
-
-
-h1{
-    font-size: 50px;
-}
-
-.pbranco{
-    color: #926239;
-    background-color: white;
-    padding: 20px;
-    margin: 0px;
-}
-
-.pmarrom{
     background-color: #926239;
     color: white;
-    padding: 20px;
-    margin: 0px;
+    transition: 0.5s;
 }
 
+.marrom{
+    color: white;
+    background-color: #926239;
+    padding: 10px;
+}
 
-header>p{
-    margin: auto;
+.branco{
+    color: #926239;
+    background-color: white;
+    padding: 10px;
 }
 
 .coluna{
-    width: 550px;
-}
-
-.flex{
     display: flex;
+    flex-direction: row;
 }
-
-.center{
-    text-align: center;
-}
-
