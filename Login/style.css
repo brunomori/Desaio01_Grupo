@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center; 
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.back{
+    background-image: url(pexels-mads-thomsen-3714328.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
